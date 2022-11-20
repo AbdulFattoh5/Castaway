@@ -6,7 +6,7 @@
     list-style: none;
 }
 
-body{
+body {
     background: var(--bl);
 }
 
@@ -42,13 +42,21 @@ body{
     line-height: 27px;
     background: var(--wb);
     color: var(--w);
+    border-radius: 6px;
+    transition: 0.4s;
 }
 
-.btnn {
-    font-family: var(--w);
+.btn:hover {
+    background: var(--w);
+    color: var(--wb);
+}
+
+.about {
+    font-family: var(--dm);
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
     background: var(--bl);
     color: var(--w);
+    border-radius: 6px;
 }
