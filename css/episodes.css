@@ -159,6 +159,10 @@
     .episodes_btn {
         align-self: auto;
     }
+
+    .episodes{
+        margin-bottom: 170px;
+    }
 }
 
 @media screen and (max-width:580px) {
