@@ -1,3 +1,7 @@
+.footer{
+    margin-bottom: 10px;
+}
+
 .footer_wrap {
     display: flex;
     align-items: flex-start;
