@@ -11,26 +11,32 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header_container header_wrap">
             <a class="logo" href="#"><img src="./img/logo.png" alt=""></a>
             <ul class="menu">
                 <li class="item">
-                    <a class="link" href="#">Home</a>
+                    <a id="link1" class="link" href="#">Home</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#">Episodes</a>
+                    <a id="link2" class="link" href="#episodes">Episodes</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#">About</a>
+                    <a id="link3" class="link" href="#about">About</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#">Contact</a>
+                    <a id="link4" class="link" href="#contact">Contact</a>
                 </li>
             </ul>
+            <button class="header_burger-btn" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <div class="header_overlay"></div>
         </div>
     </header>
-    <section class="banner">
+    <section class="banner" id="banner">
         <div class="container banner_wrap">
             <div class="banner_img">
                 <img class="banner_img" src="./img/banner_img.png" alt="">
@@ -66,7 +72,7 @@
             </div>
         </div>
     </section>
-    <section class="episodes">
+    <section class="episodes" id="episodes">
         <div class="container episodes_wrap">
             <div class="episodes_top">
                 <h1 class="episodes_h">Latest episodes</h1>
@@ -113,7 +119,7 @@
             </div>
         </div>
     </section>
-    <section class="jacob">
+    <section class="jacob" id="about">
         <div class="container jacob_wrap">
             <div class="jacob_desc">
                 <a class="arrow_btn" href="#">
@@ -132,7 +138,7 @@
             <img class="jacob_img" src="./img/jacob.png" alt="">
         </div>
     </section>
-    <section class="email">
+    <section class="email" id="contact">
         <div class="container email_container email_wrap">
             <div class="email_box">
                 <div class="email_box-desc">
@@ -150,7 +156,7 @@
             </div>
         </div>
     </section>
-    <section class="feedbacks">
+    <section class="feedbacks" id="feedback">
         <div class="container feedbacks_wrap">
             <div class="feedback">
                 <img src="./img/star.png" alt="">
@@ -257,6 +263,7 @@
             </div>
         </div>
     </footer>
+    <script src="./script.js"></script>
 </body>
 
 </html>
