@@ -16,17 +16,17 @@ overlay.addEventListener('click', function () {
 })
 
 link1.addEventListener('click', function () {
-    header.classList.toggle('open')
+    header.classList.remove('open')
 })
 
 link2.addEventListener('click', function () {
-    header.classList.toggle('open')
+    header.classList.remove('open')
 })
 
 link3.addEventListener('click', function () {
-    header.classList.toggle('open')
+    header.classList.remove('open')
 })
 
 link4.addEventListener('click', function () {
-    header.classList.toggle('open')
+    header.classList.remove('open')
 })
